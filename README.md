@@ -15,3 +15,5 @@ This function, as the name suggests, reads an input file containing the waveleng
 With this function the position of the closest point in an array to a chosen value is returned. This will be used to cut the spectra or other data at desired values.<br/>
 3) Write_txt(save_place, data):<br/>
 This function saves texts (here used to save the fit parameters) to .txt files in a desired folder. The folder has to be specified as the save_place variable.<br/>
+
+## Photoluminescence Setup:<br/>
