@@ -6,3 +6,8 @@ math: https://docs.python.org/3/library/math.html<br/>
 matplotlib.pyplot: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html<br/>
 lmfit: https://lmfit.github.io/lmfit-py/model.html<br/>
 scipy: https://scipy.org/<br/>
+
+## Basic Functions:<br/>
+The following three functions will be used to read, work with and save the data. They will not directly be used to plot or fit data.<br/>
+1) Read(data)<br/>
+    This function, as the name suggests, reads an input file containing the wavelength, energy and intensity of a photoluminescence measurement.
