@@ -18,9 +18,9 @@ This function saves texts (here used to save the fit parameters) to .txt files i
 
 ## Photoluminescence Setup:<br/>
 Text.<br/>
-1) PowerSeriesAllSpectra(folder_path, file_name, start=-1, end=-1, max_type='amplitude', fitting=False, cutoff=1, log=False, save=False, save_txt=False, Parameters=['', '']):<br/>
+1) PowerSeries(folder_path, data, start=-1, end=-1, c1=770, c2=-1, a1=1000, yvars=600, Mod='Lorentz', save=False, save_txt=False, display=False, display_num=0, xtype='wavelength', max_type='amplitude', show=False, log=False, fitting=True, isat=2000, pn=1, PowerlawToken=False, timescale=1, entire=False, cutoff=-1, Parameters=['', '']): <br/>
 Text.<br/>
-2) PowerSeries(folder_path, data, start=-1, end=-1, c1=770, c2=-1, a1=1000, yvars=600, Mod='Lorentz', save=False, save_txt=False, display=False, display_num=0, xtype='wavelength', max_type='amplitude', show=False, log=False, fitting=True, isat=2000, pn=1, PowerlawToken=False, timescale=1, entire=False, cutoff=-1, Parameters=['', '']): <br/>
+2) PowerSeriesAllSpectra(folder_path, file_name, start=-1, end=-1, max_type='amplitude', fitting=False, cutoff=1, log=False, save=False, save_txt=False, Parameters=['', '']):<br/>
 Text.<br/>
 3) PlotOne(folder_path, file_name, save=False, start=0, end=10000, xtype="wavelength", vlines=[], timescale=1, legend=[], inset=None):<br/>
 Text.<br/>
