@@ -9,5 +9,8 @@ scipy: https://scipy.org/<br/>
 
 ## Basic Functions:<br/>
 The following three functions will be used to read, work with and save the data. They will not directly be used to plot or fit data.<br/>
-1) Read(data)<br/>
-This function, as the name suggests, reads an input file containing the wavelength, energy and intensity of a photoluminescence measurement. The input should be a .txt file with 3 columns and any amount of rows of data. The first column will be interpreted as the wavelength, the second as the energy and the third as the intensity of the spectrum.
+1) Read(data):<br/>
+This function, as the name suggests, reads an input file containing the wavelength, energy and intensity of a photoluminescence measurement. The input should be a .txt file with 3 columns and any amount of rows of data. The first column will be interpreted as the wavelength, the second as the energy and the third as the intensity of the spectrum. Each of the three is returned in a seperate array.<br/>
+2) FindClosestDatapoint(array, value):<br/>
+With this function the position of the closest point in an array to a chosen value is returned. This will be used to cut the spectra or other data at desired values.<br/>
+3) Write_txt(save_place, data):<br/>
