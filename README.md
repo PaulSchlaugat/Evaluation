@@ -1,2 +1,1 @@
-# Evaluation
-Evaluation of my thesis
+# How to use the functions defined in the python program
